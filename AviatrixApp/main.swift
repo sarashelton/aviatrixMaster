@@ -27,7 +27,7 @@ func fly(myPlane : Aviatrix) {
     
     for (index, city) in destinations.enumerated() {
         let distance = myPlane.distanceTo(target: city)
-        print("\(index): \(city), \(distance) miles")
+        print("\(index): \(city), (\(distance) miles)")
     }
     
     let response = Int(readLine()!)
